@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1422b5dd-6fe5-4b44-8d3c-9511abead2bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_11_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/doc/高效运营支撑平台-student.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/basic.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dwd_dm.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dwd_dws.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/Constants/Constan.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/SparkUtils/JDBCUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/Desktopzeng.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/dwd_insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/dwdtodws.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/hive_dwd_create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/hive_dws_create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/hive_ods_create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/load_data_full.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/load_data_full_sqoop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/load_data_incr.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/load_data_incr_sqoop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dm_user_visit.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/scala_sdk_2_10_6.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/qf/hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/basic.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/basic.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/dwd_dm.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dwd_dm.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,57 +35,65 @@
     <session id="-1198923281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="fxml" value="1" />
           <entry key="java" value="2" />
-          <entry key="log" value="1" />
-          <entry key="properties" value="11" />
-          <entry key="scala" value="8" />
-          <entry key="xml" value="9" />
+          <entry key="log" value="2" />
+          <entry key="properties" value="22" />
+          <entry key="scala" value="16" />
+          <entry key="sh" value="2" />
+          <entry key="sql" value="5" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="11" />
-          <entry key="Scala" value="8" />
-          <entry key="XML" value="10" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="22" />
+          <entry key="SQL" value="5" />
+          <entry key="Scala" value="16" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="5" />
-          <entry key="properties" value="123" />
-          <entry key="scala" value="817" />
+          <entry key="properties" value="621" />
+          <entry key="scala" value="1079" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="32" />
+          <entry key="xml" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="123" />
-          <entry key="Scala" value="817" />
-          <entry key="XML" value="32" />
+          <entry key="Properties" value="621" />
+          <entry key="Scala" value="1079" />
+          <entry key="XML" value="46" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="-469">
+              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -92,20 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/SparkUtils/JDBCUtils.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="e#26#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="258">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -113,47 +110,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="720">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <element signature="e#24#57#0" expanded="true" />
+                <element signature="e#25#55#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Constants/Constan.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/basic.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="88" lean-forward="true" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dm.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-793">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -179,13 +140,14 @@
         <option value="$PROJECT_DIR$/src/main/scala/cn/qf/SparkUtils/JDBCUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/dwd_dm.properties.fxml" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/qf/Constants/Constan.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/hive-site.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/basic.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/dwd_dm.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/hive-site.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/dwd_dm.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/dm_user_visit.properties" />
       </list>
     </option>
   </component>
@@ -204,10 +166,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1654" />
-    <option name="height" value="964" />
+    <option name="x" value="237" />
+    <option name="y" value="87" />
+    <option name="width" value="1655" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -217,7 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,6 +187,11 @@
             <path>
               <item name="qfbap_hz1803" type="b2602c69:ProjectViewProjectNode" />
               <item name="qfbap_hz1803" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qfbap_hz1803" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qfbap_hz1803" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qfbap_hz1803" type="b2602c69:ProjectViewProjectNode" />
@@ -276,6 +243,16 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qfbap_hz1803" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qfbap_hz1803" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
               <item name="Constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,17 +265,27 @@
               <item name="qf" type="462c0819:PsiDirectoryNode" />
               <item name="Spark_DW" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qfbap_hz1803" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qfbap_hz1803" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="qf" type="462c0819:PsiDirectoryNode" />
+              <item name="SparkUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562857078134" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563176823311" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -309,6 +296,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\Hz1803_test\qfbap_hz1803\sql" />
       <recent name="E:\github\Hz1803_test\qfbap_hz1803\src\main\resources" />
       <recent name="E:\github\Hz1803_test\qfbap_hz1803\src\main\scala\cn\qf\Spark_DW" />
       <recent name="E:\github\Hz1803_test\qfbap_hz1803\src\doc" />
@@ -330,8 +318,7 @@
     <configuration name="DWD_DM" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="cn.qf.Spark_DW.DWD_DM" />
       <module name="qfbap_hz1803" />
-      <option name="PROGRAM_PARAMETERS" value="qfbap_dm.dm_user_basic" />
-      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root" />
+      <option name="PROGRAM_PARAMETERS" value="qfbap_dm.dm_user_visit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.qf.Spark_DW.*" />
@@ -346,7 +333,6 @@
       <option name="MAIN_CLASS_NAME" value="cn.qf.Spark_DW.DWD_DWS" />
       <module name="qfbap_hz1803" />
       <option name="PROGRAM_PARAMETERS" value="qfbap_dm.dm_user_basic" />
-      <option name="VM_PARAMETERS" value="-DHADOOP_USER_NAME=root " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.qf.Spark_DW.*" />
@@ -379,6 +365,10 @@
       <option name="presentableId" value="Default" />
       <updated>1562813887040</updated>
       <workItem from="1562813888559" duration="18755000" />
+      <workItem from="1562856929513" duration="365000" />
+      <workItem from="1562891810078" duration="4328000" />
+      <workItem from="1563097840501" duration="6829000" />
+      <workItem from="1563150646087" duration="14657000" />
     </task>
     <task id="LOCAL-00001" summary="hh">
       <created>1562825426913</created>
@@ -387,45 +377,53 @@
       <option name="project" value="LOCAL" />
       <updated>1562825426913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hh">
+      <created>1562857133793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562857133793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18755000" />
+    <option name="totallyTimeSpent" value="44934000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16353887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22252011" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32905295" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28794327" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32765958" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32905295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,94 +437,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="hh" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qf/hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Constants/package.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/qf/hello.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Constants/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hdfs-site.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1797" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dm.properties.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dws.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1219">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/derby.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-637" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="87" lean-forward="true" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/SparkUtils/JDBCUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding>
-            <element signature="e#26#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dm.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-793">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Constants/Constan.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dm.properties.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -534,19 +453,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/basic.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/SparkUtils/JDBCUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="88" lean-forward="true" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
+        <state relative-caret-position="295">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#26#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/core-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dws.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.10/2.2.0/spark-sql_2.10-2.2.0.jar!/org/apache/spark/sql/execution/datasources/jdbc/JdbcUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/derby.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DWS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="887">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Constants/Constan.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dm_user_visit.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="240" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-469">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/basic.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/config/ConfigManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/hive_dws_create_table.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/dwdtodws.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1329" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/load_data_full_sqoop.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/hive_ods_create_table.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/load_data_incr_sqoop.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dm_user_visit.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/hive_dwd_create_table.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/cn/qf/Spark_DW/DWD_DM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="720">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="e#24#57#0" expanded="true" />
+            <element signature="e#25#55#0" expanded="true" />
           </folding>
         </state>
       </provider>

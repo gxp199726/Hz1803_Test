@@ -9,9 +9,10 @@ object ConfigManager {
     val in_dws = ConfigManager.getClass.getClassLoader.getResourceAsStream("dwd_dm.properties")
 
     val in_basic = ConfigManager.getClass.getClassLoader.getResourceAsStream("basic.properties")
-
+    val in_dm = ConfigManager.getClass.getClassLoader.getResourceAsStream("dm_user_visit.properties")
     prop.load(in_dws)
     prop.load(in_basic)
+    prop.load(in_dm)
   }catch {
     case e:Exception=>e.printStackTrace()
   }
